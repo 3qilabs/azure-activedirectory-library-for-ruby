@@ -39,7 +39,8 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.1.0'
 
-  s.add_runtime_dependency 'jwt', '~> 0.1'
+ #updating it to support omniauth-oktaoauth gem in awetest
+  s.add_runtime_dependency 'jwt', '~> 1.0'
   s.add_runtime_dependency 'nokogiri', '~> 1.5'
   s.add_runtime_dependency 'uri_template', '~> 0.7'
 
